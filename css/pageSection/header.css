@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+#video-background {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  margin: 0px;
+  padding: 0px;
+  opacity: 0.9;
+}
+#container-logo img{
+  width: 218px;
+}
+#container-logo{
+  position: relative;
+  margin: 0 auto;
+  top: 50%;
+  margin-top: -119px;
+  width: auto;
+  height: auto;
+}
+@media screen and (max-width: 458px) {
+  #container-logo img{
+    width: 168px;
+  }
+  #container-logo{
+    margin-top: -84px;
+  }
+}
+@media screen and (max-height: 543px) {
+  #container-logo img{
+    width: 140px;
+  }
+  #container-logo{
+    margin-top: -70px;
+  }
+}

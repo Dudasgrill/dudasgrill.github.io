@@ -1,0 +1,182 @@
+@charset "UTF-8";
+#more{
+  display: none;
+    position: relative;
+    margin: 0 auto;
+    width: 88%;
+    height: auto;
+    top: 0px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    clear: both;
+}
+.button{
+    position: relative;
+    width: 180px;
+    height: 62px;
+    background: #fff;
+    border: 1px solid #d2d2d2;
+    border-radius: 3px;
+    color: #f36e3a;
+    font-family: Arial;
+    font-weight: normal;
+    font-size: 1.3em;
+    left: 50%;
+    margin-left: -90px;
+}
+.container-menu{
+  position: relative;
+  margin: 0 auto;
+  top: 0px;
+  width: 88%;
+  height: auto;
+  margin-top: 50px;
+  padding: 0;
+}
+.container-item{
+  position: relative;
+  margin: 0 auto;
+  top: 0px;
+  width: 100%;
+  height: auto;
+  padding: 0;
+}
+.item{
+  position: relative;
+  float: left;
+  margin: 0 auto;
+  width: 43%;
+  left: 6%;
+  margin-right: 2%;
+  height: auto;
+  padding-bottom: 25px;
+  padding-top: 25px;
+  border-bottom: 1px solid #E5E5E5;
+}
+.item-image{
+  border-radius: 50%;
+  float: left;
+  width: 120px; 
+  height: 120px;
+}
+.item-name{
+  float: left;
+  color: #f36e3a;
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 1.3em;
+  padding: 0px;
+  margin: 0px;
+  margin-left: 15px;
+  margin-bottom: 10px;
+  width: 50%;
+}
+.item-description{
+  float: left;
+  color: #4d4d4d;
+  font-family: Arial;
+  font-weight: normal;
+  font-size: 1.2em;
+  padding: 0px;
+  margin: 0px;
+  margin-left: 15px;
+  width: 60%;
+}
+ul#listmenu-cardapio{
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+  overflow: hidden;
+  width: 100%;
+}
+li.lis-cardapio{
+  position: relative;
+  text-align: center;
+  right: 0px;
+  width: auto;
+  height: 80px;
+  left: 8px;
+  margin-right: 6px;
+  font-family: Arial;
+  letter-spacing: 1px;
+  font-weight: normal;
+  font-size: 1.3em;
+  padding: 0;
+}
+li#carnes{
+  width: auto;
+  padding-right: 6px;
+  text-align: center;
+}
+li#guarnicoes{
+  width: auto;
+  padding-left: 6px;
+  padding-right: 6px;
+  text-align: center;
+}
+li#massas{
+  width: auto;
+  padding-left: 6px;
+  padding-right: 6px;
+  text-align: center;
+}
+li#sobremesas{
+  width: auto;
+  padding-left: 6px;
+  padding-right: 6px;
+  text-align: center;
+}
+li.lis-cardapio:hover{
+  color: #ffffff;
+  background: rgba(255,255,255,0.1);
+  text-decoration: none;
+  border-radius: 2px;
+}
+li.lis-cardapio a{
+  position: relative;
+  color: #f36e3a;
+  top: 32px;
+  padding: 0;
+  cursor: pointer;
+}
+li.lis-cardapio a:link{
+  text-decoration: none;
+}
+li.lis-cardapio a:visited{
+  text-decoration: none;
+}
+li.lis-cardapio a:hover{
+  text-decoration: none;
+  color: #4C4744;
+}
+li.lis-cardapio a:active{
+  text-decoration: none;
+}
+.item-name a {color:#f36e3a;text-decoration: none;}         /* Unvisited link  */
+.item-name a:visited {color:#f36e3a;} /* Visited link    */
+.item-name a:hover {color:#f36e3a;}   /* Mouse over link */
+.item-name a:active {color:#f36e3a;}
+@media screen and (max-width: 1066px){
+    
+    .item{
+        width: 88%;
+    }
+    
+}
+@media screen and (max-width: 448px){
+    
+    #listmenu-cardapio{
+     width: 100%; 
+    }
+    .item-image{
+        width: 80px; 
+        height: 80px;
+    }
+    .item-name{
+      font-size: 0.9em;
+    }
+    .item-description{
+      font-size: 0.8em;
+    }
+}
+

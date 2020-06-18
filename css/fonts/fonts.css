@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: kenyan;
+    src: url('../../fonts/kenyan.ttf'), url('../../fonts/kenyan.eot');
+}
+@font-face {
+    font-family: calibri;
+    src: url('../../fonts/calibri.ttf'), url('../../fonts/calibri.eot');
+}

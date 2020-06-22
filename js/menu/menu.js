@@ -39,10 +39,10 @@ function onclick() {
 
   }else{
 
-    document.getElementById("menu").style.background = "#ffa000";
+    document.getElementById("menu").style.background = "#1b1b1b";
     document.getElementById("menu").style.height = "65px";
     document.getElementById("listmenu").style.top = "16px";
-    document.getElementById("logo").style.top = "14px";
+   
     document.getElementById("buttonmenu").style.top = "23px";
     document.getElementById("listmenu").style.width = "auto";
     document.getElementById("listmenu").style.display = "none";

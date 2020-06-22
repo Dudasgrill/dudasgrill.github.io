@@ -13,7 +13,7 @@ var myFunction = function() {
         //console.log(rmfouthletters);
         //console.log(descr);
         //console.log(price);
-        window.open("https://api.whatsapp.com/send?phone=5521964391013&text="+"Oi, quero pedir este item do cardápio "+'"'+rmfouthletters+'" preço: '+price);
+        window.open("https://api.whatsapp.com/send?phone=5521964436672&text="+"Oi, quero pedir este item do cardápio "+'"'+rmfouthletters+'" preço: '+price);
     }
 };
 

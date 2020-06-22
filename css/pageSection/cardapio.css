@@ -24,15 +24,6 @@
     left: 50%;
     margin-left: -90px;
 }
-.container-menu{
-  position: relative;
-  margin: 0 auto;
-  top: 0px;
-  width: 88%;
-  height: auto;
-  margin-top: 50px;
-  padding: 0;
-}
 .container-item{
   position: relative;
   margin: 0 auto;
@@ -45,13 +36,14 @@
   position: relative;
   float: left;
   margin: 0 auto;
-  width: 43%;
-  left: 6%;
   margin-right: 2%;
   height: auto;
   padding-bottom: 25px;
   padding-top: 25px;
   border-bottom: 1px solid #E5E5E5;
+  left: 2%;
+  width: 90%;
+  cursor: pointer;
 }
 .item-image{
   border-radius: 50%;
@@ -69,7 +61,8 @@
   margin: 0px;
   margin-left: 15px;
   margin-bottom: 10px;
-  width: 50%;
+  width: 90%;
+  text-transform: uppercase;
 }
 .item-description{
   float: left;
@@ -80,7 +73,7 @@
   padding: 0px;
   margin: 0px;
   margin-left: 15px;
-  width: 60%;
+  width: 90%;
 }
 ul#listmenu-cardapio{
   list-style-type: none;
@@ -89,85 +82,21 @@ ul#listmenu-cardapio{
   overflow: hidden;
   width: 100%;
 }
-li.lis-cardapio{
-  position: relative;
-  text-align: center;
-  right: 0px;
-  width: auto;
-  height: 80px;
-  left: 8px;
-  margin-right: 6px;
-  font-family: Arial;
-  letter-spacing: 1px;
-  font-weight: normal;
-  font-size: 1.3em;
-  padding: 0;
-}
-li#carnes{
-  width: auto;
-  padding-right: 6px;
-  text-align: center;
-}
-li#guarnicoes{
-  width: auto;
-  padding-left: 6px;
-  padding-right: 6px;
-  text-align: center;
-}
-li#massas{
-  width: auto;
-  padding-left: 6px;
-  padding-right: 6px;
-  text-align: center;
-}
-li#sobremesas{
-  width: auto;
-  padding-left: 6px;
-  padding-right: 6px;
-  text-align: center;
-}
-li.lis-cardapio:hover{
-  color: #ffffff;
-  background: rgba(255,255,255,0.1);
-  text-decoration: none;
-  border-radius: 2px;
-}
-li.lis-cardapio a{
-  position: relative;
+.lis-cardapio{
+  display: inline-block;
   color: #f36e3a;
-  top: 32px;
-  padding: 0;
-  cursor: pointer;
+  margin: 0;
+  width: 100%;
+  height: auto;
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 1.3em;
+  text-align: center;
+  padding-top: 20px;
 }
-li.lis-cardapio a:link{
-  text-decoration: none;
-}
-li.lis-cardapio a:visited{
-  text-decoration: none;
-}
-li.lis-cardapio a:hover{
-  text-decoration: none;
-  color: #4C4744;
-}
-li.lis-cardapio a:active{
-  text-decoration: none;
-}
-.item-name a {color:#f36e3a;text-decoration: none;}         /* Unvisited link  */
-.item-name a:visited {color:#f36e3a;} /* Visited link    */
-.item-name a:hover {color:#f36e3a;}   /* Mouse over link */
-.item-name a:active {color:#f36e3a;}
-@media screen and (max-width: 1066px){
-    
-    .item{
-        width: 88%;
-    }
-    
-}
+
 @media screen and (max-width: 448px){
     
-    #listmenu-cardapio{
-     width: 100%; 
-    }
     .item-image{
         width: 80px; 
         height: 80px;

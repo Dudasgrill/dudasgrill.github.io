@@ -125,6 +125,5 @@ function createitems(limit,json,selected){
 
     }
 
-    document.getElementById("container-item").innerHTML = content ;
     
 }
